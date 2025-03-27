@@ -1,0 +1,10 @@
+<article class="container">
+    <div class="container__header">
+        <h1>{{titulo}}</h1>
+    </div>
+    <div class="container__body">
+        <app-card  [product]="{ name: 'Smartphone', price: 199.99, isPromo: true }"
+        (addToCartEvent)="onAddToCart()"></app-card>
+        
+    </div>
+</article>

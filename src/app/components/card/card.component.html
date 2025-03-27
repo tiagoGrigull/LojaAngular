@@ -1,0 +1,14 @@
+<article class="card">
+    <div class="card__header">
+        <h1>{{product.name}}</h1>
+    </div>
+    <div class="card__body">
+        <p>Preço: R$ {{product.price}}</p>
+        @if (product.isPromo) {
+            <span class="promo_star">⭐</span>
+          }          
+    </div>
+    <div class="card__footer">
+        <button (click) ="addToCart()">Adicionar ao Carrinho</button>
+    </div>
+</article>
