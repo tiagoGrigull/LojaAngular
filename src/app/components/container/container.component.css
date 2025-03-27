@@ -29,6 +29,6 @@
     padding: 16px;
     display: flex;
     gap: 0.5em;
-    flex-direction: column;
+    flex-direction: row;
     border-bottom: solid 2px rgb(235, 235, 235);
 }

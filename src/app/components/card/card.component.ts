@@ -8,7 +8,7 @@ import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
   styleUrl: './card.component.css'
 })
 export class CardComponent  implements OnInit{
-  @Input() product!: { name: string; price: number; isPromo: boolean };
+  @Input() product!: { name: string; img: string; price: number; isPromo: boolean };
   @Output() addToCartEvent = new EventEmitter<void>();
 
   ngOnInit(){

@@ -26,15 +26,17 @@
     display: flex;
 }
 .card__img img{
-    width: 250px;
+    width: 80%;
 }
 
 .card__body{
-    height: 50px;
+    height: 30px;
     width: 100%;
+    padding: 10px;
     display: flex;
-    padding: 16px;
-    text-align: justify;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 .card__footer{
     height: 50px;
@@ -53,5 +55,6 @@
     border-radius: 10px;
 }
 
-.promo_star{
+.promo__star{
+    color: gold;
 }
